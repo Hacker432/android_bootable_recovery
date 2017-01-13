@@ -115,4 +115,5 @@ LOCAL_MODULE := updater
 
 LOCAL_FORCE_STATIC_EXECUTABLE := true
 
+LOCAL_STATIC_LIBRARIES += libcrypto_utils_static
 include $(BUILD_EXECUTABLE)
